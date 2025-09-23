@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/workbook1/HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1/calculatorapp/pom.xml" />
       </list>
     </option>
   </component>
