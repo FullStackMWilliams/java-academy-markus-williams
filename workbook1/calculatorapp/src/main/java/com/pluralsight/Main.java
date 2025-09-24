@@ -9,7 +9,7 @@ public class Main {
     int a = sc.nextInt();
     System.out.print("Enter second number:");
     int b = sc.nextInt();
-    System.out.println("Your answer is:" + (a + b));
+    System.out.println("Your answer:" + (a + b));
 
         }
     }
