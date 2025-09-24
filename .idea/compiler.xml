@@ -9,7 +9,7 @@
         <module name="helloworld" />
         <module name="calculatorapp" />
         <module name="catproject" />
-        <module name="ex-cat" />
+        <module name="catExample" />
       </profile>
     </annotationProcessing>
   </component>
