@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
+        <module name="code-Example-1" />
         <module name="calculatorapp" />
+        <module name="code-example-1" />
         <module name="catproject" />
-        <module name="catExample" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="catExample" target="17" />
+      <module name="code-example-1" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

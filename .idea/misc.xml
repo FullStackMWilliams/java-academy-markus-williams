@@ -8,7 +8,14 @@
         <option value="$PROJECT_DIR$/workbook1/calculatorapp/pom.xml" />
         <option value="$PROJECT_DIR$/workbook1/catProject/pom.xml" />
         <option value="$PROJECT_DIR$/Demos/ex-cat/pom.xml" />
+        <option value="$PROJECT_DIR$/code-example-1/pom.xml" />
+        <option value="$PROJECT_DIR$/codeDemo's/code-Example-1/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/code-example-1/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
