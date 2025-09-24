@@ -2,7 +2,7 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
-                // Variable Examples about a cat
+                // Variable Examples: about a cat
 
                 String catName = "Whiskers";
                 int catAge = 3;
@@ -14,7 +14,7 @@ public class Main {
                 System.out.println("Weight:" + catWeight + "kg");
                 System.out.println("hungry?:" + isHungry);
 
-                // Boolean Expressions Examples of a cat
+                // Boolean Expressions: Examples of a cat
 
                 boolean isSleeping = false;
                 boolean isPurring = true;
