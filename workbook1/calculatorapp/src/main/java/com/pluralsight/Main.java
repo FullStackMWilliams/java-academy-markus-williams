@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        // Calculator Functions
+
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter first number:");
     int a = sc.nextInt();
