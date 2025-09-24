@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
         <module name="calculatorapp" />
+        <module name="catproject" />
       </profile>
     </annotationProcessing>
   </component>
