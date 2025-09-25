@@ -53,22 +53,37 @@ public class MathApp {
         double y1 = 10;
         double y2 = 50;
 
+        double distance = Math.hypot(x2 - x1, y2 - y1);
+        System.out.println("The distance between the two points is: " + distance);
 
-        // 6.) Find and display the absolute (positive) value of a variable after it is set to -3.8.
+         // 6.) Find and display the absolute (positive) value of a variable after it is set to -3.8.
 
         double myValue = -3.8;
         double absoluteValue = Math.abs(myValue);
         System.out.println(absoluteValue);
 
-
         // 7.) Find and display a random number between 0 and 1
 
         // I first imported java.util.Random
-
+        double myRandomNum = Math.random();
+        System.out.println("Display random number: " + myRandomNum);
 
         // 8.)  Calculate how many minutes are in 24 days, use a variable for each value you calculate with.
+
+
+        int numOfDays = 24;
+        int hoursInDay = 24;
+        int minInHour = 60;
+
+        long minIn24Days = numOfDays * hoursInDay * minInHour;
+        System.out.println("There are " + minIn24Days + " minutes in 24 days.");
+
         // BONUS: How many milliseconds?
 
+        int secInMinutes = 60;
+        int milliInSeconds = 1000;
+        long milliIn24Days = numOfDays * hoursInDay * minInHour * secInMinutes * milliInSeconds;
+        System.out.println("There are " + milliIn24Days + " milliseconds in 24 days.");
 
     }
     }
