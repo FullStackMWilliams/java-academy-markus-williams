@@ -45,7 +45,7 @@ public class VariableApp {
         short oneWeek = 7;
 
         // 2. The price of coffee
-        float coffee = 4.99F;
+        double coffee = 4.99;
 
         // 3. Your favorite letter
         char favLetter = 'M';
