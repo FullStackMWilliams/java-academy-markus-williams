@@ -50,12 +50,22 @@ boolean hasPopcorn = true;
 
 //   Exercise 5
 
-// step 1
-// now print were watching [ movie title ] with [number] friends.
-// pizza costs [price] each.
+        // Step 1
+// Now print were watching [ movie title ] with [number] friends.
+        System.out.println("We're watching " + movieTitle + " with " + numOfFriends + " friends." );
+
+// Print pizza costs [price] each.
+        System.out.println(pizzaSlice_perPrice);
+
 // Popcorn? [true/false]
+        System.out.println(hasPopcorn);
+
 // Total pizza cost: $[calculated amount]
+        System.out.println("$" + (pizzaSlice_perPrice * numOfFriends));
+
 // Print Popcorn time! only if hasPopcorn is true
+        if (hasPopcorn)
+            System.out.println("Popcorn time!");
 
 
 
