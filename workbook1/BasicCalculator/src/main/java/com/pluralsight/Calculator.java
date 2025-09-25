@@ -11,7 +11,18 @@ public class Calculator {
 // For this exercise, always multiply.
 
         Scanner readMeBot = new Scanner(System.in);
-        System.out.print( );
+
+        System.out.print("Enter first number: ");
+        float num1 = readMeBot.nextFloat();
+
+        System.out.print("Enter second number: ");
+        float num2 = readMeBot.nextFloat();
+
+        System.out.print("Do you want to Add, Subtract, Multiply or Divide: ");
+        String option = readMeBot.nextLine();
+
+        float answer = num1 * num2;
+        System.out.printf("The answer is:" + answer);
 
 //  Step 1
 
