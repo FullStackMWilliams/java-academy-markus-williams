@@ -11,6 +11,7 @@
         <module name="StringApplication" />
         <module name="MathApplication" />
         <module name="code-Example-1" />
+        <module name="RecapFunDay4" />
         <module name="calculatorapp" />
         <module name="code-example-1" />
       </profile>
