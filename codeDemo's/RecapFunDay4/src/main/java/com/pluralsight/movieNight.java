@@ -71,14 +71,27 @@ public class movieNight {
             System.out.println("No popcorn");
         }
 
-
-
-
-
-        // Bonus Challenge
+//         Bonus Challenges: Scanner Practice
 
         // Creating a scanner object
-        Scanner scanner = new Scanner(System.in);
+        Scanner myScanner = new Scanner(System.in);
 
+// Challenge 1: Use a scanner to ask the user
+
+        // a.) Movie title
+        System.out.println("Enter favorite movie: ");
+        String userMovie_title = myScanner.next();
+
+        // b. Number of friends
+        System.out.println("How many friends are going? ");
+        int usersFriends = myScanner.nextInt();
+
+        // c.) Pizza price per piece
+        System.out.println("How much is each slice of pizza");
+        float usersPizza_price_perSlice = myScanner.nextFloat();
+
+        // d.) whether there's popcorn or not
+        System.out.println("Is there popcorn? (true/false) ");
+        boolean usersHas_popcorn = myScanner.nextBoolean();
     }
 }
