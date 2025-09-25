@@ -93,5 +93,11 @@ public class movieNight {
         // d.) whether there's popcorn or not
         System.out.println("Is there popcorn? (true/false) ");
         boolean usersHas_popcorn = myScanner.nextBoolean();
+
+// Challenge 2: Round the pizza cost
+
+        // a.) Rounded pizza cost
+        double usersPizza_cost = usersPizza_price_perSlice * usersFriends;
+        System.out.println(Math.round(usersPizza_cost));
     }
 }
