@@ -1,4 +1,5 @@
 package com.pluralsight;
+import java.awt.image.BandedSampleModel;
 import java.util.Scanner;
 
 public class Calculator {
@@ -19,10 +20,11 @@ public class Calculator {
         float num2 = readMeBot.nextFloat();
 
         System.out.print("Do you want to Add, Subtract, Multiply or Divide: ");
-        String option = readMeBot.nextLine();
+        String option = readMeBot.next();
 
         float answer = num1 * num2;
-        System.out.printf("The answer is:" + answer);
+
+        System.out.printf("The answer is: " + answer);
 
 //  Step 1
 
@@ -31,6 +33,9 @@ public class Calculator {
         // Enter the first number: 5
         // Enter the second number: 12
         // Select multiply
+
+        // result
+
 
 
 
