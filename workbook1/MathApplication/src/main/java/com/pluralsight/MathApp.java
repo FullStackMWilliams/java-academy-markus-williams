@@ -75,14 +75,14 @@ public class MathApp {
         int hoursInDay = 24;
         int minInHour = 60;
 
-        long minIn24Days = numOfDays * hoursInDay * minInHour;
+        long minIn24Days = (numOfDays * hoursInDay * minInHour);
         System.out.println("There are " + minIn24Days + " minutes in 24 days.");
 
         // BONUS: How many milliseconds?
 
         int secInMinutes = 60;
         int milliInSeconds = 1000;
-        long milliIn24Days = numOfDays * hoursInDay * minInHour * secInMinutes * milliInSeconds;
+        long milliIn24Days = (numOfDays * hoursInDay * minInHour * secInMinutes * milliInSeconds);
         System.out.println("There are " + milliIn24Days + " milliseconds in 24 days.");
 
     }
