@@ -9,28 +9,28 @@ public class movieNight {
 
 //   Exercise 1
 
-         // Step 1: Create a new java class with main method. (Remember to change class name. Ex: "movieNight")
+        // Step 1: Create a new java class with main method. (Remember to change class name. Ex: "movieNight")
 
         //  Step 2: Declare variables for:
 
 // 1.) movie title (String)
-String movieTitle = "John Wick 3";
+        String movieTitle = "John Wick 3";
 
 // 2.) number of friends (int)
-int numOfFriends = 4;
+        int numOfFriends = 4;
 
 // 3.) Pizza price per piece (double)
-double pizzaSlice_perPrice = 2.99;
+        double pizzaSlice_perPrice = 2.99;
 
 //. 4) Whether you have popcorn (boolean)
-boolean hasPopcorn = true;
+        boolean hasPopcorn = true;
 
 
 //   Exercise 2
 
         // Step 1: Print a short plan for your movie night.
 
-         System.out.println(movieTitle + " starts at 7. We need to be there at 6:15 if we want pizza.");
+        System.out.println(movieTitle + " starts at 7. We need to be there at 6:15 if we want pizza.");
 
 //   Exercise 3
 
@@ -43,11 +43,11 @@ boolean hasPopcorn = true;
 
         // Step 1
 // bonus: Use and if statement to print a fun message if there's popcorn.
-         if (hasPopcorn) {
-             System.out.println("We made it in time to get popcorn.");
-         } else {
-             System.out.println("We didn't make it in time for popcorn");
-         }
+        if (hasPopcorn) {
+            System.out.println("We made it in time to get popcorn.");
+        } else {
+            System.out.println("We didn't make it in time for popcorn");
+        }
 
 //   Exercise 5
 
@@ -67,33 +67,18 @@ boolean hasPopcorn = true;
 // Print Popcorn time! only if hasPopcorn is true
         if (hasPopcorn) {
             System.out.println("Popcorn time!");
+        } else {
+            System.out.println("No popcorn");
         }
 
 
 
 
 
- // Bonus Challenge: Scanner Practice
+        // Bonus Challenge
 
         // Creating a scanner object
-        Scanner myScanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-// Challenge 1.) Use a Scanner to ask the user:
-
-        // a.) Movie title
-        System.out.println("Enter movie title: ");
-        String userMovieTitle = myScanner.next();
-
-        // b.) Number of friends
-        System.out.println("How many friends are you bringing? ");
-        int userfriends = myScanner.nextInt();
-
-        // c.) Pizza price per piece
-        System.out.println("What's the price per pizza slice? ");
-        int userPrice_PerPizza = myScanner.nextInt();
-
-        // d.) Whether there's popcorn (true/false)
-
-
-        }
     }
+}
