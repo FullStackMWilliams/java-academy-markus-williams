@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
-        <module name="debugPractice-1" />
         <module name="StringApplication" />
+        <module name="DebugPractice-1" />
         <module name="MathApplication" />
+        <module name="CodeExample-1" />
         <module name="BasicCalculator" />
-        <module name="code-Example-1" />
         <module name="RecapFunDay4" />
         <module name="code-example-1" />
         <module name="Cat-Demo" />
