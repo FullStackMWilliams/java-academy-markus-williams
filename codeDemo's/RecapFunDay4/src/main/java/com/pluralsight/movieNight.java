@@ -7,7 +7,7 @@ public class movieNight {
 
  // Exercise 1
 
- //step 1
+ // Step 1
  // Create a new java class with main method.
 
         // step 2
@@ -45,10 +45,8 @@ int Me = 1;
          else
              System.out.println("We didn't make it in time for popcorn");
 
+         // exercise 5
 
-
-
-    // exercise 5
 // step 1
 // now print were watching [ movie title ] with [number] friends.
 // pizza costs [price] each.
