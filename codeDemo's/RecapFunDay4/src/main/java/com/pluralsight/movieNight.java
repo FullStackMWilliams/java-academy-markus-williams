@@ -73,10 +73,27 @@ boolean hasPopcorn = true;
 
 
 
- // Bonus Challenge
+ // Bonus Challenge: Scanner Practice
 
         // Creating a scanner object
-        Scanner scanner = new Scanner(System.in);
+        Scanner myScanner = new Scanner(System.in);
+
+// Challenge 1.) Use a Scanner to ask the user:
+
+        // a.) Movie title
+        System.out.println("Enter movie title: ");
+        String userMovieTitle = myScanner.next();
+
+        // b.) Number of friends
+        System.out.println("How many friends are you bringing? ");
+        int userfriends = myScanner.nextInt();
+
+        // c.) Pizza price per piece
+        System.out.println("What's the price per pizza slice? ");
+        int userPrice_PerPizza = myScanner.nextInt();
+
+        // d.) Whether there's popcorn (true/false)
+
 
         }
     }
