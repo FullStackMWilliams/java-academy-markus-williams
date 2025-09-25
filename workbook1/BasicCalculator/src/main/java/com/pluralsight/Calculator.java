@@ -34,7 +34,8 @@ public class Calculator {
         // Enter the second number: 12
         // Select multiply
 
-        // result
+        // Answer and or Solution
+        // The answer is: 60.0
 
 
 
