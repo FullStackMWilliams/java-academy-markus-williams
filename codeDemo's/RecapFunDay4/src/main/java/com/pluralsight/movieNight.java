@@ -99,5 +99,23 @@ public class movieNight {
         // a.) Rounded pizza cost
         double usersPizza_cost = usersPizza_price_perSlice * usersFriends;
         System.out.println(Math.round(usersPizza_cost));
+
+// Challenge 3: Dynamic message
+
+        // a.) Write if/else state if pizza is above 30
+        if (usersPizza_cost>30)
+            System.out.println("Whoa! that's expensive pizza.");
+        else
+            System.out.println("Nice budget-friendly movie night");
+
+// Challenge 4: Add drinks
+
+        // a.) Add a drink price variable
+        double drinkPrice = 4.99;
+        double total$_ofMovieNight = usersPizza_cost + (drinkPrice * usersFriends);
+        System.out.println(Math.round(total$_ofMovieNight));
+
+// Challenge 5:
+
     }
 }
