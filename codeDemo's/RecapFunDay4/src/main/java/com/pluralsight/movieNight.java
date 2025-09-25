@@ -3,15 +3,13 @@ package com.pluralsight;
 public class movieNight {
     public static void main(String[] args) {
 
- //                               Mini Exercise - Movie Night
+//                                Mini Exercise - Movie Night
 
- // Exercise 1
+//   Exercise 1
 
- // Step 1
- // Create a new java class with main method.
+         // Step 1: Create a new java class with main method. (Remember to change class name. Ex: "movieNight")
 
-        // step 2
-//  Declare variables for:
+        // Step 2: Declare variables for:
 
 // 1.) movie title (String)
 String movieTitle = "John Wick 3";
@@ -26,19 +24,22 @@ double pizzaSlice_perPrice = 2.99;
 boolean hasPopcorn = true;
 
 
-// Exercise 2
-        // step 1
-        // Print a short plan for your movie night.
+//   Exercise 2
+
+        // Step 1: Print a short plan for your movie night.
+
         System.out.println(movieTitle + " starts at 7. We need to be there at 6:15 if we want pizza.");
 
-// Exercise 3
-// step 1
+//   Exercise 3
+
+        // Step 1:
 // Calculate and print the total pizza cost (include yourself)
 int Me = 1;
         System.out.println(pizzaSlice_perPrice * (Me + numOfFriends));
 
-// Exercise 4
-// Step 1
+//   Exercise 4
+
+        // Step 1
 // bonus: Use and if statement to print a fun message if there's popcorn.
          if (hasPopcorn)
              System.out.println("We made it in time to get popcorn.");
