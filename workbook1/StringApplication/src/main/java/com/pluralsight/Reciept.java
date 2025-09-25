@@ -3,7 +3,7 @@ package com.pluralsight;
 public class Reciept {
     public static void main(String[] args) {
 
-//                     Step 3
+//                           Step 3
 
 //  Questions:
 
