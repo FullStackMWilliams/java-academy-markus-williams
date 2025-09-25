@@ -8,8 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
         <module name="debugPractice-1" />
-        <module name="code-Example-1" />
         <module name="StringApplication" />
+        <module name="MathApplication" />
+        <module name="code-Example-1" />
         <module name="calculatorapp" />
         <module name="code-example-1" />
       </profile>
