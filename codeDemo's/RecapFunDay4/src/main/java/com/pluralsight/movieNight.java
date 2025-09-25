@@ -115,7 +115,9 @@ public class movieNight {
         double total$_ofMovieNight = usersPizza_cost + (drinkPrice * usersFriends);
         System.out.println(Math.round(total$_ofMovieNight));
 
-// Challenge 5:
+// Challenge 5: String Formatting
+
+        // a.) Use String formatting to create a nice output Ex.: "Movie: Scary movie 3 | Number of guest: 4 | Total cost: $45.63
 
     }
 }
