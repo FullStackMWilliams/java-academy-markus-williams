@@ -13,7 +13,7 @@
         <module name="BasicCalculator" />
         <module name="code-Example-1" />
         <module name="RecapFunDay4" />
-        <module name="calculatorapp" />
+        <module name="Calculatorapp-Demo" />
         <module name="code-example-1" />
       </profile>
     </annotationProcessing>
