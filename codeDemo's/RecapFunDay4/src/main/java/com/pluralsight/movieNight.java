@@ -43,10 +43,11 @@ boolean hasPopcorn = true;
 
         // Step 1
 // bonus: Use and if statement to print a fun message if there's popcorn.
-         if (hasPopcorn)
+         if (hasPopcorn) {
              System.out.println("We made it in time to get popcorn.");
-         else
+         } else {
              System.out.println("We didn't make it in time for popcorn");
+         }
 
 //   Exercise 5
 
@@ -64,8 +65,9 @@ boolean hasPopcorn = true;
         System.out.println("$" + (pizzaSlice_perPrice * numOfFriends));
 
 // Print Popcorn time! only if hasPopcorn is true
-        if (hasPopcorn)
+        if (hasPopcorn) {
             System.out.println("Popcorn time!");
+        }
 
 
 
