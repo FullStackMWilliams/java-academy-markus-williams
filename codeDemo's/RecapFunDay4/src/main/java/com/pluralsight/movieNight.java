@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Scanner;
+
 public class movieNight {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class movieNight {
 
          // Step 1: Create a new java class with main method. (Remember to change class name. Ex: "movieNight")
 
-        // Step 2: Declare variables for:
+        //  Step 2: Declare variables for:
 
 // 1.) movie title (String)
 String movieTitle = "John Wick 3";
@@ -28,13 +30,13 @@ boolean hasPopcorn = true;
 
         // Step 1: Print a short plan for your movie night.
 
-        System.out.println(movieTitle + " starts at 7. We need to be there at 6:15 if we want pizza.");
+         System.out.println(movieTitle + " starts at 7. We need to be there at 6:15 if we want pizza.");
 
 //   Exercise 3
 
-        // Step 1:
-// Calculate and print the total pizza cost (include yourself)
-int Me = 1;
+        // Step 1: Calculate and print the total pizza cost (include yourself)
+
+        int Me = 1;
         System.out.println(pizzaSlice_perPrice * (Me + numOfFriends));
 
 //   Exercise 4
@@ -46,7 +48,7 @@ int Me = 1;
          else
              System.out.println("We didn't make it in time for popcorn");
 
-         // exercise 5
+//   Exercise 5
 
 // step 1
 // now print were watching [ movie title ] with [number] friends.
@@ -61,6 +63,8 @@ int Me = 1;
 
  // Bonus Challenge
 
+        // Creating a scanner object
+        Scanner scanner = new Scanner(System.in);
 
         }
     }
