@@ -117,7 +117,7 @@ public class movieNight {
 
 // Challenge 5: String Formatting
 
-        // a.) Use String formatting to create a nice output Ex.: "Movie: Scary movie 3 | Number of guest: 4 | Total cost: $45.63
-
+        // a.) Use String formatting to create a nice output Ex.: "Movie: Scary movie 3 | Number of guest: 4 | Total cost: $45.63".
+        System.out.printf("Movie: %s| Number of guests: %d| Total cost for movie night: $%.2f", userMovie_title, usersFriends, total$_ofMovieNight);
     }
 }
