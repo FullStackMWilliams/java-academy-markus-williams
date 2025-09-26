@@ -9,7 +9,7 @@
         <module name="helloworld" />
         <module name="SandwichShop-application" />
         <module name="StringApplication" />
-        <module name="CatDemo" />
+        <module name="WalkThroughs" />
         <module name="DebugPractice-1" />
         <module name="MathApplication" />
         <module name="BasicCalculator" />
@@ -25,6 +25,7 @@
       <module name="CatProject-Demo" target="17" />
       <module name="code-example-1" target="17" />
       <module name="CodeExample-1" target="17" />
+      <module name="WalkThrough's" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
