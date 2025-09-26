@@ -1,5 +1,6 @@
 /*
                 Maven/Pom.xml Debugging guide
+
  Are you having trouble with project turning off preview after adding a new project?
  Great im here to help.
  First locate the file that no longer previews
