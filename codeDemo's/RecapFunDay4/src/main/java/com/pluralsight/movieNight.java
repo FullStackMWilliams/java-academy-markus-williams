@@ -41,8 +41,7 @@ public class movieNight {
 
 //   Exercise 4
 
-        // Step 1
-// bonus: Use and if statement to print a fun message if there's popcorn.
+        // Step 1: Bonus: Use and if statement to print a fun message if there's popcorn.
         if (hasPopcorn) {
             System.out.println("We made it in time to get popcorn.");
         } else {
@@ -52,19 +51,20 @@ public class movieNight {
 //   Exercise 5
 
         // Step 1
-// Now print were watching [ movie title ] with [number] friends.
+
+// a.) Now print were watching [ movie title ] with [number] friends.
         System.out.println("We're watching " + movieTitle + " with " + numOfFriends + " friends." );
 
-// Print pizza costs [price] each.
+// b.) Print pizza costs [price] each.
         System.out.println(pizzaSlice_perPrice);
 
-// Popcorn? [true/false]
+// c.) Popcorn? [true/false]
         System.out.println(hasPopcorn);
 
-// Total pizza cost: $[calculated amount]
+// d.) Total pizza cost: $[calculated amount]
         System.out.println("$" + (pizzaSlice_perPrice * numOfFriends));
 
-// Print Popcorn time! only if hasPopcorn is true
+// e.) Print Popcorn time! only if hasPopcorn is true
         if (hasPopcorn) {
             System.out.println("Popcorn time!");
         } else {

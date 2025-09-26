@@ -10,19 +10,19 @@
         <module name="StringApplication" />
         <module name="DebugPractice-1" />
         <module name="MathApplication" />
-        <module name="CodeExample-1" />
         <module name="BasicCalculator" />
         <module name="RecapFunDay4" />
         <module name="code-example-1" />
-        <module name="Cat-Demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Calculatorapp-Demo" target="17" />
+      <module name="Cat-Demo" target="17" />
       <module name="catExample" target="17" />
       <module name="catproject" target="17" />
       <module name="CatProject-Demo" target="17" />
       <module name="code-example-1" target="17" />
+      <module name="CodeExample-1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
