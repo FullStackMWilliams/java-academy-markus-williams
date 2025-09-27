@@ -21,11 +21,11 @@ public class SandwichShop {
         // b.) 2: Large: base price $8.95
         System.out.println("2: A large sandwich is $8.95 ");
 
-       // line below checks the line above
+        // line below checks the line above
         System.out.println("What would you like: 1 or 2");
         double customerWants = myCashier.nextDouble();
 
-       // This line acts as a placeholder
+        // This line acts as a placeholder
         double customerPrice = 0.0;
 
 // This block of code checks the user's input to give a corresponding output or error message
@@ -39,4 +39,3 @@ public class SandwichShop {
         System.out.println(customerPrice);
     }
 }
-
