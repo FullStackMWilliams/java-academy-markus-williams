@@ -10,7 +10,6 @@ public class SandwichShop {
 // Notes: This will be a point of sales application to calculate the cost of a sandwich.
 
 
-
 // Step 1:
 // Prompt hte user for the size of the sandwich (1 or 2):
 
@@ -36,6 +35,21 @@ public class SandwichShop {
         } else
             System.out.println("Error: Enter 1 or 2 to receive price.");
 
-        System.out.println(customerPrice);
+// Step 2: Prompt the user for their age:
+
+        System.out.println("Enter your age:");
+        int customerAge = myCashier.nextInt();
+
+        // a.) Student (17yrs old or younger) - receive a 10% discount
+        if (customerAge <= 17) {
+            customerPrice = (customerPrice - (customerPrice * 0.10));
+
+        // b.) Senior (65 years old or older) - receive a 20% discount
+        } else if (customerAge >= 65)
+            customerPrice = (customerPrice - (customerPrice * 0.20));
+
+
+        System.out.printf("Your total is: $%.2f%n",customerPrice);
     }
 }
+
