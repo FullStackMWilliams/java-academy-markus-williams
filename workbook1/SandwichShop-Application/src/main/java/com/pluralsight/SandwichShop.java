@@ -28,12 +28,13 @@ public class SandwichShop {
        // This line acts as a placeholder
         double customerPrice = 0.0;
 
+// This block of code checks the user's input to give a corresponding output or error message
         if (customerWants == 1) {
             customerPrice = 5.45;
         } else if (customerWants == 2) {
             customerPrice = 8.89;
         } else
-            System.out.println("Enter 1 or 2 to receive price.");
+            System.out.println("Error: Enter 1 or 2 to receive price.");
 
         System.out.println(customerPrice);
     }
