@@ -24,16 +24,19 @@
         <option value="$PROJECT_DIR$/WalkThroughs/pom.xml" />
         <option value="$PROJECT_DIR$/codeDemo's/WalkThroughs/pom.xml" />
         <option value="$PROJECT_DIR$/workbook1/MethodPractice/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1/MethodPracrtice/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1/MethodsPractice/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/code-example-1/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1/MethodPracrtice/pom.xml" />
         <option value="$PROJECT_DIR$/workbook1/MethodPractice/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
