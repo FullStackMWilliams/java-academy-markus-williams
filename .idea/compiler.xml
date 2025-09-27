@@ -25,6 +25,7 @@
       <module name="CatProject-Demo" target="17" />
       <module name="code-example-1" target="17" />
       <module name="CodeExample-1" target="17" />
+      <module name="MethodPractice" target="17" />
       <module name="WalkThrough's" target="17" />
     </bytecodeTargetLevel>
   </component>
