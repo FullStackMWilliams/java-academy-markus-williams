@@ -59,11 +59,35 @@ public class Main {
 
 // Step 2: Calculate and display the following:
 
-        // a.)
-        // b.)
-        // c.)
-        // d.)
-        // e.)
+        // a.) Bronze membership price:
+        double bronzeMembership_Price = 35.00;
+
+        // b.) Silver membership price:
+        double silverMembership_Price = 55.00;
+
+        // c.) Gold membership price:
+        double goldMembership_Price = 85.00;
+
+        // d.) Guest pass:
+        double guestPass_Price = 10.00;
+
+        // e.) Personal trainer:
+        double PT_Price = 80.00;
+
+        // f.) Gym classes:
+        double gymClasses_Price = 50.00;
+
+        // g.) If member is a student and or 25 or younger (Apply 25% discount)
+       double studentDiscount = 0.00;
+       double membership_Price = 0.00;
+
+        if (memberEnrolled.equals("yes")) {
+            studentDiscount = membership_Price * .25;
+        } else if (membersAge < 25) {
+            studentDiscount = membership_Price * .25;
+
+
+        }
     }
 }
 
