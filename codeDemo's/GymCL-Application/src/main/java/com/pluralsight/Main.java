@@ -111,7 +111,7 @@ public class Main {
 
         // h.) Display
         double membershipOptions = goldMembership_Price + silverMembership_Price + bronzeMembership_Price + gymClasses_Price + guestPass_Price + PT_Price;
-        double totalMembershipCost = membershipBase_Price - studentDiscount + membershipOptions;
+        double totalMembershipCost = membershipBase_Price + studentDiscount + membershipOptions;
             System.out.println(totalMembershipCost);
 
 
