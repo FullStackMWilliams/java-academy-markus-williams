@@ -68,4 +68,5 @@ public class Main {
 }
 
 // Step 3 now in a separate class lets practice methods and oop. Analyze your code and see what process(es) you can turn
-// into methods to make your code more maintainable. Also include if/else statements on the membership tiers
+// into methods to make your code more maintainable. Also include if/else statements on the membership tiers.
+// Include a boolean survey for the member to take after signing up
