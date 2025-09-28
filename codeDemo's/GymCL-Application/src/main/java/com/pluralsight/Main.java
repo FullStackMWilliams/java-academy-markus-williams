@@ -103,16 +103,15 @@ public class Main {
        double studentDiscount = 0.00;
        double membership_discountPrice = 0.00;
 
-        if (memberEnrolled.equals("yes")) {
-            studentDiscount = .25 * membershipBase_Price;
+        if (memberEnrolled.equals("yes") || membersAge < 25) {
+            studentDiscount = membershipBase_Price * .25;
 
-        }if (membersAge < 25) {
-            studentDiscount = membershipBase_Price * .15;
+
 
 
         // h.) Display
         double membershipOptions = goldMembership_Price + silverMembership_Price + bronzeMembership_Price + gymClasses_Price + guestPass_Price + PT_Price;
-        double totalMembershipCost = membershipBase_Price + studentDiscount + membershipOptions;
+        double totalMembershipCost = membershipBase_Price - studentDiscount + membershipOptions;
             System.out.println(totalMembershipCost);
 
 
