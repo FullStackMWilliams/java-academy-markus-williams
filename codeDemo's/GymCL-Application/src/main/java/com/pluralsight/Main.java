@@ -22,13 +22,13 @@ public class Main {
         System.out.println("Would you like to sign up for a membership today? (yes/no): ");
         String wantsMembership = gymClerk.next();
 
-        System.out.println("Would you like to sign-up for our Bronze package? (yes/no): ");
+        System.out.println("Would you like to sign-up for our Bronze package for $35? (yes/no): ");
         String bronzePackage = gymClerk.next();
 
-        System.out.println("would you like to sign up for our Silver package? (yes/no): ");
+        System.out.println("would you like to sign up for our Silver package for $55? (yes/no): ");
         String silverPackage = gymClerk.next();
 
-        System.out.println("Would you like to sign-up for our Gold package? (yes/no): ");
+        System.out.println("Would you like to sign-up for our Gold package for $85? (yes/no): ");
         String goldPackage = gymClerk.next();
 
         // b.) Membership start date (Ex. (9/29/30)):
