@@ -22,6 +22,8 @@ public class Main {
 
         if (testersScore <= 59)
             System.out.println("You earned a 'F'.");
+
+        myExam_Proctor.close();
     }
 }
 
