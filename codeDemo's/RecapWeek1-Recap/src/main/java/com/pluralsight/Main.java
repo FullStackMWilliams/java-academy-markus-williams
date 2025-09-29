@@ -14,7 +14,7 @@ public class Main {
         if (testersScore >= 80 && testersScore <= 89)
             System.out.println("You earned a 'B'.");
 
-        if(testersScore >= 70 && testersScore <= 79)
+        if (testersScore >= 70 && testersScore <= 79)
             System.out.println("You earned a 'C'.");
 
         if (testersScore >= 60 && testersScore <=69)
