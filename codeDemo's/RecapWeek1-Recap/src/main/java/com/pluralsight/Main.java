@@ -17,16 +17,15 @@ public class Main {
         if (testersScore >= 70 && testersScore <= 79)
             System.out.println("You earned a 'C'.");
 
-        if (testersScore >= 60 && testersScore <=69)
+        if (testersScore >= 60 && testersScore <= 69)
             System.out.println("You earned a 'D'.");
 
         if (testersScore <= 59)
             System.out.println("You earned a 'F'.");
-
     }
+}
 
 
-    }
 
 
 
