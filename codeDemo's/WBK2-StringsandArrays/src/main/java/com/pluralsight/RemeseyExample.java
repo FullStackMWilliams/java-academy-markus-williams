@@ -84,14 +84,14 @@ public class RemeseyExample {
         String password = "1234";
         String enterPassword = "";
 
-        while (passwordIncorrect = true) {
+        while (passwordIncorrect == true) {
             System.out.println("What is the password?");
             enterPassword = read.nextLine();
             if(!enterPassword.equals(password)) ;
             {
 
-                System.out.println("Incorrect");
-            }
+
+            } System.out.println("Incorrect");
             passwordIncorrect = false;
 
         }
