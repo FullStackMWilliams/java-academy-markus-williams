@@ -45,13 +45,12 @@ public class Main {
         // Always runs at least once, even if condition is false
         Scanner myCounter = new Scanner(System.in);
         String input;
-        System.out.println("\nType anything you want.(type exit to quit)");
         do {
-            if (!myCounter.equals(Ign))
-                System.out.println("This will print once, even though k = " + k);
-            k--;
+            System.out.println("\nType anything you want on the next line.(type exit to quit):");
+            input = myCounter.nextLine();
+        } while (!input.equalsIgnoreCase("exit"));
 
-        } while (k > 0);
+        validateEmails("mwilliams@my.yearupunited.org");
 
     }
 
