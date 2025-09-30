@@ -5,16 +5,13 @@ public class FullNameApplication {
 
         Scanner nameCollector = new Scanner(System.in);
 
-
-        System.out.println("Enter your name");
-
-        System.out.print("First name: ");
+        System.out.print("Enter your first name: ");
         String firstname = nameCollector.next().trim();
 
-        System.out.print("Last name: ");
+        System.out.print("Enter your last name: ");
         String lastname = nameCollector.next().trim();
 
-        System.out.print("Middle name: ");
+        System.out.print("Enter your middle name: ");
         String middleName = nameCollector.next().trim();
 
         System.out.print("Suffix: ");
@@ -26,7 +23,7 @@ public class FullNameApplication {
             fullName = fullName + " " + middleName;
         }
 
-        // Here I re-declared the variable full name to include the middle name if not empty
+        // Here I re-declared the variable full name to include the last name
         fullName = fullName + " " + lastname;
 
         if (!suffix.isEmpty()) {
