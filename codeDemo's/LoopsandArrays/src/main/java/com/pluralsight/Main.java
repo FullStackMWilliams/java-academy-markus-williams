@@ -1,4 +1,5 @@
 package com.pluralsight;
+
 import java.util.Scanner;
 
 public class Main {
@@ -18,9 +19,6 @@ public class Main {
             System.out.println(counter + " more days left at Year Up untied");
 
 
-
-
-
         // 1. FOR LOOP
         // Use when you know how many times you want to repeat
         System.out.println("For Loop: Counting from 1 to 5");
@@ -35,7 +33,7 @@ public class Main {
         int j = 5;
         while (j > 0) {
             System.out.println("Countdown: " + j);
-            try{
+            try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
@@ -50,17 +48,83 @@ public class Main {
         System.out.println("\nType anything you want.(type exit to quit)");
         do {
             if (!myCounter.equals(Ign))
-            System.out.println("This will print once, even though k = " + k);
+                System.out.println("This will print once, even though k = " + k);
             k--;
+
         } while (k > 0);
-    }
-
-
-
-
-
-
 
     }
+
+    public static void validateEmails (String myEmail_address) {
+
+        Scanner emailClerk = new Scanner(System.in);
+        myEmail_address = "rmailijard@yearup,org";
+
+        System.out.println("Enter your email address: ");
+        String correctEmail = emailClerk.next();
+        if (correctEmail.equalsIgnoreCase(myEmail_address))
+            System.out.println("correct email address!");
+        else
+            System.out.println("wrong email.Retry.");
+
+
+
+
+        Boolean isThisValid = ValidateEmailAdres("rmailjard@sasa.org");
+
+        ValidateEmailAdres("rmailjard@yEARup.OrG");
+        ValidateEmailAdres("rmailjard@yxxxxxRup.OrG");
+        ValidateEmailAdres("rmailjard@yxxxxxRup.OrG");
+        ValidateEmailAdres("rmailjard@yxxxxxRup.OrG");
+        ValidateEmailAdres("rmailjard@yxxxxxRup.OrG");
+
+        LogginChecker();
+
+
+
+    }
+
+    private static void LogginChecker() {
+
+        Scanner read = new Scanner(System.in);
+
+        System.out.println("What is your password");
+        String password = read.nextLine();
+        String correctPassword = "1234";
+        if(password.equals(correctPassword))
+        {
+            System.out.println("That is correct, you are logged in");
+        }
+        else
+        {
+            System.out.println("That is incorrect, try again");
+        }
+
+    }
+
+    public static Boolean ValidateEmailAdres(String mail) {
+
+        boolean isValid;
+        String lowercased = mail.toLowerCase();
+        int AtPosition = lowercased.indexOf("@");//9
+        String extraction = lowercased.substring(AtPosition + 1);//cuts the text between 0 and 9
+        System.out.println(extraction);
+
+        if (extraction.equals("yearup.org")) {
+            isValid = true;
+        }
+        else
+        {
+            isValid = false;
+        }
+        return isValid;
+
+
+    }
+}
+
+
+
+
 
 
