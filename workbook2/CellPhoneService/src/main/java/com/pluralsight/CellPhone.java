@@ -80,6 +80,10 @@ public class CellPhone {
     public void setOwerFullName(String owerFullName) {
         this.owerFullName = owerFullName;
     }
+
+    public void dail (String phoneNumberToCall) {
+        System.out.println(owerFullName + "'s phone is calling " + phoneNumberToCall);
+    }
 }
 
 

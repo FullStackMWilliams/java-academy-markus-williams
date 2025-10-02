@@ -9,37 +9,61 @@ public class CellPhoneApplications {
 /* This line of code uses the method we made called cell phone to collect the users input in the way we structured our cellphone
 file.
  */
-        CellPhone phone;
-        phone = new CellPhone();
+        CellPhone phone1;
+        phone1 = new CellPhone();
 
         System.out.print("Enter your serial number (ex: 1000000 - 9999999): ");
-        int serialNumber = scanner.nextInt();
+        phone1.setSerialNumber(scanner.nextInt());
         scanner.nextLine();
 
         System.out.print("Enter your phone model (ex: IPhone X): ");
-        String model = scanner.nextLine();
+        phone1.setModelNumber(scanner.nextLine());
 
         System.out.print("Enter your carrier name (ex. AT&T): ");
-        String carrier = scanner.nextLine();
+        phone1.setCarrier_Provider(scanner.nextLine());
 
         System.out.print("Enter your phone number (ex: 888-888-8888): ");
-        String phoneNumber = scanner.nextLine();
+        phone1.setPhoneNumber(scanner.nextLine());
 
         System.out.print("Enter your full name (ex: John Smith): ");
-        String owerFullName = scanner.nextLine();
+        phone1.setOwerFullName(scanner.nextLine());
 
-        phone.setSerialNumber(serialNumber);
-        phone.setModelNumber(model);
-        phone.setCarrier_Provider(carrier);
-        phone.setPhoneNumber(phoneNumber);
-        phone.setOwerFullName(owerFullName);
+        CellPhone phone2 = new CellPhone();
 
+        System.out.print("\nEnter your serial number (ex: 1000000 - 9999999): ");
+        phone2.setSerialNumber(scanner.nextInt());
+
+        System.out.print("Enter your phone model (ex: IPhone X): ");
+        phone2.setModelNumber(scanner.nextLine());
+
+        System.out.print("Enter your carrier name (ex. AT&T): ");
+        phone2.setCarrier_Provider(scanner.nextLine());
+
+        System.out.print("Enter your phone number (ex: 888-888-8888): ");
+        phone2.setPhoneNumber(scanner.nextLine());
+
+        System.out.print("Enter your full name (ex: John Smith): ");
+        phone2.setOwerFullName(scanner.nextLine());
 
         System.out.println("\nPhone Details:");
-        System.out.println("Serial Number: " + phone.getSerialNumber());
-        System.out.println("Model: " +phone.getModelNumber());
-        System.out.println("Carrier: " + phone.getCarrier_Provider());
-        System.out.println("Phone Number: " + phone.getPhoneNumber());
-        System.out.println("Customer full name: " + phone.getOwerFullName());
+        display(phone1);
+        display(phone2);
+
+        System.out.println("\nCalling each other:");
+        phone1.dail(phone2.getPhoneNumber());
+        phone2.dail(phone1.getPhoneNumber());
+
+        scanner.close();
+
     }
+
+    public static void display(CellPhone phone) {
+        System.out.println("=========================");
+        System.out.println("Owner: " + phone.getOwerFullName());
+        System.out.println("Model: " + phone.getModelNumber());
+        System.out.println("Carrier: " + phone.getCarrier_Provider());
+        System.out.println("Phone number: " + phone.getPhoneNumber());
+        System.out.println("Serial number: " + phone.getSerialNumber());
+    }
+
 }
