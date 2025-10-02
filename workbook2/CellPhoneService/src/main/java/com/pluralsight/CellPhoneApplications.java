@@ -45,13 +45,19 @@ file.
         System.out.print("Enter your full name (ex: John Smith): ");
         phone2.setOwerFullName(scanner.nextLine());
 
+        CellPhone phone3 = new CellPhone(1223435,"Samsung G22","Verizon","678-367-9835","Mario Hashimoto"
+
+        );
+
         System.out.println("\nPhone Details:");
         display(phone1);
         display(phone2);
+        display(phone3);
 
         System.out.println("\nCalling each other:");
         phone1.dail(phone2.getPhoneNumber());
         phone2.dail(phone1.getPhoneNumber());
+        phone3.dail(phone2.getPhoneNumber());
 
         scanner.close();
 

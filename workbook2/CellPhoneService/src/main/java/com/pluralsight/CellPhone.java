@@ -36,6 +36,15 @@ public class CellPhone {
         // ower = ""
         this.owerFullName = "";
     }
+// This is called overloading a constructor this allows us to add multiple methods inside the parameters of a class we are overloading
+    public CellPhone(int serialNumber, String modelNumber, String carrier_Provider, String phoneNumber, String owerFullName){
+        this.serialNumber = serialNumber;
+        this.modelNumber = modelNumber;
+        this.carrier_Provider = carrier_Provider;
+        this.phoneNumber = phoneNumber;
+        this.owerFullName = owerFullName;
+    }
+
 
     /*    Provide getter and setter methods for all 5 data members. */
 
@@ -83,6 +92,10 @@ public class CellPhone {
 
     public void dail (String phoneNumberToCall) {
         System.out.println(owerFullName + "'s phone is calling " + phoneNumberToCall);
+    }
+
+    public void dail(CellPhone phone) {
+        System.out.println(owerFullName + "'s phone is ringing " +phone.getPhoneNumber());
     }
 }
 
