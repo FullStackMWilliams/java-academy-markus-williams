@@ -6,7 +6,7 @@ public class Task {
     private String title;
     private LocalDate dueDate;
     private boolean completed;
-    private String urgency ;
+    private String Urgency ;
     private String notificationsMessage;
     private boolean Reminder;
 
