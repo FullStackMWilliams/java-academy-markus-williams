@@ -15,6 +15,8 @@ public class Vehicle {
         this.price = price;
     }
 
+// Up top this allows us to set the parameter in the variables
+// This chain link of code allows us to get and set the variables we set in the private class after initializing the parameters.
     public long getVehicleId() {
         return vehicleId;
     }
@@ -22,6 +24,7 @@ public class Vehicle {
     public void setVehicleId(long vehicleId) {
         this.vehicleId = vehicleId;
     }
+
     public String getMakeModel() {
         return makeModel;
     }
@@ -29,7 +32,8 @@ public class Vehicle {
     public void setMakeModel(String makeModel) {
         this.makeModel = makeModel;
     }
-    public String getColor(){
+
+    public String getColor() {
         return color;
     }
 
