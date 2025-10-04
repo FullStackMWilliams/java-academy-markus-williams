@@ -11,9 +11,10 @@ public class Vehicle {
         this.vehicleId = vehicleId;
         this.makeModel = makeModel;
         this.color = color;
-        this.odometerReading = odometerReading;
         this.price = price;
+        this.odometerReading = odometerReading;
     }
+
 
 // Up top this allows us to set the parameter in the variables
 // This chain link of code allows us to get and set the variables we set in the private class after initializing the parameters.
@@ -60,4 +61,5 @@ public class Vehicle {
     public String toString() {
         return vehicleId + "|" + makeModel + "|" + color + "|" + odometerReading + "miles" + "|" + "$" + price;
     }
+
 }
