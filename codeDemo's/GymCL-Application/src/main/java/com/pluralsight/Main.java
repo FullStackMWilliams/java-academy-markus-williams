@@ -122,3 +122,9 @@ public class Main {
 // Step 3 now in a separate class lets practice methods and oop. Analyze your code and see what process(es) you can turn
 // into methods to make your code more maintainable. Also include if/else statements on the membership tiers.
 // Include a boolean survey for the member to take after signing up
+
+
+
+// We are going to make a mock version of our app. this will act as the back end logic for our APPLICATION.
+// we will eventually add a read me to this file so we can give other viewers a clear depiction of our app.
+
