@@ -30,23 +30,10 @@ public class Employee {
         return payRate;
     }
 
-    public void setEmployeeID(int employeeID) {
-        this.employeeID = employeeID;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setHoursWorked(double hoursWorked) {
-        this.hoursWorked = hoursWorked;
-    }
-
-    public void setPayRate(double payRate) {
-        this.payRate = payRate;
-    }
     public double getGrossPay() {
-        return hoursWorked * payRate;
+        double regularHours = Math.min(hoursWorked, 40);
+        double overTimeHours = Math.max(hoursWorked - 40,0);
+        return (regularHours * payRate) + (overTimeHours * payRate * 1.5);
     }
 }
 
