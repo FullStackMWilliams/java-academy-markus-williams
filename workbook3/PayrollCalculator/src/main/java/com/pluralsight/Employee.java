@@ -31,9 +31,11 @@ public class Employee {
     }
 
     public double getGrossPay() {
-        double regularHours = Math.min(hoursWorked, 40);
-        double overTimeHours = Math.max(hoursWorked - 40,0);
-        return (regularHours * payRate) + (overTimeHours * payRate * 1.5);
+        if (hoursWorked > 40) {
+            double overtimeHours = hoursWorked - 40;
+            return (40 * payRate) + (overtimeHours * payRate * 1.5);
+        }
+        return hoursWorked * payRate;
     }
 }
 
