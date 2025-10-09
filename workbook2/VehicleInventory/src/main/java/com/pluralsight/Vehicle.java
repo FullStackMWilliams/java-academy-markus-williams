@@ -61,5 +61,4 @@ public class Vehicle {
     public String toString() {
         return vehicleId + "|" + makeModel + "|" + color + "|" + odometerReading + "miles" + "|" + "$" + price;
     }
-
 }
