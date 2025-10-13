@@ -7,18 +7,16 @@ import java.time.Duration;        // For handling quiz timing
 import java.util.*;               // For collections (List, Set, Scanner, Random)
 import java.util.stream.Collectors; // For filtering and transforming lists
 
-/**
- * CafeJavaApp — A command-line Java learning assistant.
+/*
+                CafeJava — A command-line Java learning application.
 
  * Features:
- *  - Stores Java terms + definitions by workbook (in CSV format)
- *  - Search, learn, add, display, and quiz modes
- *  - Auto-saves new entries instantly
- *  - Color-coded CLI output for engagement
-
- * 💡 Professor Notes:
- *   - You can switch to database or JSON storage later for scalability.
- *   - Try adding more categories for advanced topics (like OOP, Collections, etc.).
+  - Stores Java terms + definitions by workbook (in CSV format)
+  - Search, learn, add, display, and quiz modes
+  - Auto-saves new entries instantly
+  - Color-coded CLI output for engagement
+-------------------------------------------------------------------------------
+  - You can switch to database or JSON storage later for scalability.
  */
 public class CafeJava {
 
@@ -40,9 +38,9 @@ public class CafeJava {
     private static final String YELLOW = "\u001B[33m";
     private static final String CYAN = "\u001B[36m";
 
-    /**
-     * The entry point for the Café Java application.
-     * Loads the data, greets the user, and starts the main menu loop.
+    /*
+      The entry point for the Café Java application.
+      Loads the data, greets the user, and starts the main menu loop.
      */
     public static void main(String[] args) {
         loadTerms(); // Load CSV file data into memory
@@ -50,9 +48,9 @@ public class CafeJava {
         mainLoop(); // Begin interactive CLI menu
     }
 
-    /**
-     * Main control loop: displays menu and routes user input.
-     * Runs continuously until the user chooses to quit.
+    /*
+      Main control loop: displays menu and routes user input.
+      Runs continuously until the user chooses to quit.
      */
     private static void mainLoop() {
         while (true) {
@@ -83,13 +81,12 @@ public class CafeJava {
         }
     }
 
-    // ============================================================
-    // 🔹 FILE MANAGEMENT SECTION
-    // ============================================================
 
-    /**
-     * Loads terms from the CSV file into the `terms` list.
-     * Each line format: Workbook|Term|Definition
+    //  FILE MANAGEMENT SECTION
+
+    /*
+      Loads terms from the CSV file into the `terms` list.
+      Each line format: Workbook|Term|Definition
      */
     private static void loadTerms() {
         terms.clear(); // Start fresh each time
@@ -113,9 +110,9 @@ public class CafeJava {
         }
     }
 
-    /**
-     * Saves all terms currently in memory to the CSV file.
-     * Automatically called when quitting or adding new terms.
+    /*
+      Saves all terms currently in memory to the CSV file.
+      Automatically called when quitting or adding new terms.
      */
     private static void saveTerms() {
         try (PrintWriter pw = new PrintWriter(new FileWriter(CSV_FILE))) {
@@ -127,13 +124,13 @@ public class CafeJava {
         }
     }
 
-    // ============================================================
-    // 🔹 CORE MENU OPTIONS
-    // ============================================================
 
-    /**
-     * Allows user to search for a term (case-insensitive).
-     * Displays all matching terms and their definitions.
+    // CORE MENU OPTIONS
+
+
+    /*
+      Allows user to search for a term (case-insensitive).
+      Displays all matching terms and their definitions.
      */
     private static void searchByTerm() {
         System.out.print(CYAN + "Enter term to search (partial allowed): " + RESET);
@@ -142,7 +139,7 @@ public class CafeJava {
         // Use Stream API for filtering the list
         List<WorkbookTerm> results = terms.stream()
                 .filter(t -> t.getTerm().toLowerCase().contains(q))
-                .collect(Collectors.toList());
+                .toList();
 
         if (results.isEmpty()) {
             System.out.println(RED + "No matches found for '" + q + "'." + RESET);
@@ -158,14 +155,14 @@ public class CafeJava {
         // .filter(t -> t.getTerm().toLowerCase().contains(q) || t.getDefinition().toLowerCase().contains(q))
     }
 
-    /**
-     * Picks and displays a random term from all or a specific workbook.
-     */
+
+//      Picks and displays a random term from all or a specific workbook.
+
     private static void learnNewTerm() {
         String workbook = chooseWorkbookOrAll();
-        List<WorkbookTerm> pool = (workbook.equalsIgnoreCase("ALL"))
-                ? new ArrayList<>(terms)
-                : terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
+        List<WorkbookTerm> pool;
+        if (workbook.equalsIgnoreCase("ALL")) pool = new ArrayList<>(terms);
+        else pool = terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
 
         if (pool.isEmpty()) {
             System.out.println(RED + "No terms available for the selected workbook." + RESET);
@@ -179,9 +176,9 @@ public class CafeJava {
         // Add a “next” feature here to show another random term without returning to menu.
     }
 
-    /**
-     * Adds a new term to the list and auto-saves it to the CSV file.
-     */
+
+//      Adds a new term to the list and auto-saves it to the CSV file.
+
     private static void addNewTerm() {
         System.out.print("Enter workbook name (or new workbook name): ");
         String workbook = scanner.nextLine().trim();
@@ -206,16 +203,16 @@ public class CafeJava {
         // Add input validation here to prevent duplicates, or allow overwriting with confirmation.
     }
 
-    /**
-     * Displays all terms for a specific workbook or all combined.
-     */
+
+//      Displays all terms for a specific workbook or all combined.
+
     private static void displayWorkbook() {
         System.out.print("Enter workbook name to display (or 'ALL' to list all): ");
         String workbook = scanner.nextLine().trim();
 
-        List<WorkbookTerm> list = workbook.equalsIgnoreCase("ALL")
-                ? terms
-                : terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
+        List<WorkbookTerm> list;
+        if (workbook.equalsIgnoreCase("ALL")) list = terms;
+        else list = terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
 
         if (list.isEmpty()) {
             System.out.println(RED + "No terms found for '" + workbook + "'." + RESET);
@@ -233,9 +230,9 @@ public class CafeJava {
         // Try exporting this list to a text or HTML file for printable flashcards.
     }
 
-    /**
-     * Starts a timed True/False quiz on Java terms.
-     * Each question must be answered within 25 seconds.
+    /*
+      Starts a timed True/False quiz on Java terms.
+      Each question must be answered within 25 seconds.
      */
     private static void startQuiz() {
         try {
@@ -244,9 +241,10 @@ public class CafeJava {
             if (n <= 0) return;
 
             String workbook = chooseWorkbookOrAll();
-            List<WorkbookTerm> pool = workbook.equalsIgnoreCase("ALL")
-                    ? new ArrayList<>(terms)
-                    : terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
+            List<WorkbookTerm> pool;
+            if (workbook.equalsIgnoreCase("ALL")) pool = new ArrayList<>(terms);
+            else
+                pool = terms.stream().filter(t -> t.getWorkbook().equalsIgnoreCase(workbook)).collect(Collectors.toList());
             if (pool.isEmpty()) {
                 System.out.println(RED + "No terms available for quiz." + RESET);
                 return;
@@ -258,9 +256,9 @@ public class CafeJava {
             for (int i = 1; i <= n; i++) {
                 WorkbookTerm item = pool.get(rand.nextInt(pool.size()));
                 boolean useCorrect = rand.nextBoolean();
-                String definition = useCorrect
-                        ? item.getDefinition()
-                        : pool.get(rand.nextInt(pool.size())).getDefinition();
+                String definition;
+                if (useCorrect) definition = item.getDefinition();
+                else definition = pool.get(rand.nextInt(pool.size())).getDefinition();
 
                 System.out.println("\n" + BLUE + "Question " + i + "/" + n + ":" + RESET);
                 System.out.println("Term: " + CYAN + item.getTerm() + RESET);
@@ -302,13 +300,12 @@ public class CafeJava {
         }
     }
 
-    // ============================================================
-    // 🔹 HELPER METHODS
-    // ============================================================
 
-    /**
-     * Prompts user to pick a workbook or choose "All".
-     * Returns the selected workbook name.
+    //  HELPER METHODS
+
+    /*
+      Prompts user to pick a workbook or choose "All".
+      Returns the selected workbook name.
      */
     private static String chooseWorkbookOrAll() {
         Set<String> wbs = terms.stream()
