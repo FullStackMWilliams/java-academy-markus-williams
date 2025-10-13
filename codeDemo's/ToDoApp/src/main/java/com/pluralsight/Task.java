@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.time.LocalDate;
+/* This is a to-do list app we built using oop. This is a class called Task we built to handle all the back-end logic */
 
 public class Task {
     private String title;
