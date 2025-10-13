@@ -1,0 +1,30 @@
+Workbook 1 - Intro to Java|Class|A blueprint for creating objects in Java, defining fields and methods.
+Workbook 1 - Intro to Java|Object|An instance of a class that contains data and methods to manipulate that data.
+Workbook 1 - Intro to Java|Method|A block of code that performs a specific task, defined inside a class.
+Workbook 1 - Intro to Java|Variable|A container that stores a value of a specific data type.
+Workbook 1 - Intro to Java|Data Type|Specifies the type of value a variable can hold, such as int, double, or String.
+Workbook 1 - Intro to Java|Main Method|The entry point for Java applications: public static void main(String[] args).
+Workbook 1 - Intro to Java|Encapsulation|The concept of bundling data with the methods that operate on it.
+Workbook 1 - Intro to Java|Inheritance|A mechanism where a class can inherit properties and behavior from another class.
+Workbook 1 - Intro to Java|Polymorphism|The ability of an object to take many forms, typically by overriding methods.
+Workbook 1 - Intro to Java|Abstraction|The process of hiding implementation details and showing only the essential features.
+Workbook 2 - Strings, Loops and Arrays|String|A sequence of characters enclosed in double quotes in Java.
+Workbook 2 - Strings, Loops and Arrays|Loop|A control structure that repeats a block of code multiple times.
+Workbook 2 - Strings, Loops and Arrays|For Loop|A loop that executes a specific number of times with a counter variable.
+Workbook 2 - Strings, Loops and Arrays|While Loop|A loop that executes while a condition is true.
+Workbook 2 - Strings, Loops and Arrays|Do-While Loop|A loop that executes at least once before checking the condition.
+Workbook 2 - Strings, Loops and Arrays|Array|A collection of elements of the same type stored in a contiguous memory location.
+Workbook 2 - Strings, Loops and Arrays|Index|The position of an element in an array, starting from 0.
+Workbook 2 - Strings, Loops and Arrays|Enhanced For Loop|Simplified syntax for iterating over arrays and collections.
+Workbook 2 - Strings, Loops and Arrays|StringBuilder|A mutable sequence of characters used to efficiently modify strings.
+Workbook 2 - Strings, Loops and Arrays|Break Statement|Used to exit a loop before it naturally terminates.
+Workbook 3 - Mastering Java Fundamentals|Constructor|A special method used to initialize objects when they are created.
+Workbook 3 - Mastering Java Fundamentals|Overloading|Defining multiple methods with the same name but different parameters.
+Workbook 3 - Mastering Java Fundamentals|Overriding|Redefining a superclass method in a subclass to provide specific behavior.
+Workbook 3 - Mastering Java Fundamentals|Exception Handling|The process of handling runtime errors using try, catch, and finally blocks.
+Workbook 3 - Mastering Java Fundamentals|Package|A namespace that organizes related classes and interfaces.
+Workbook 3 - Mastering Java Fundamentals|Import Statement|Used to include other packages or classes into a Java file.
+Workbook 3 - Mastering Java Fundamentals|Access Modifier|Defines the visibility of classes, methods, and variables (e.g., public, private, protected).
+Workbook 3 - Mastering Java Fundamentals|Static Keyword|Indicates that a member belongs to the class rather than an instance.
+Workbook 3 - Mastering Java Fundamentals|Interface|A reference type containing abstract methods that classes can implement.
+Workbook 3 - Mastering Java Fundamentals|Final Keyword|Used to declare constants or prevent method overriding or inheritance.
