@@ -7,6 +7,7 @@ import java.time.Duration;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/* Welcome to Cafe Java this  */
 public class CafeJava {
     private static final String CSV_FILE = "cafe_java_terms.csv";
     private static List<WorkbookTerm> terms = new ArrayList<>();
