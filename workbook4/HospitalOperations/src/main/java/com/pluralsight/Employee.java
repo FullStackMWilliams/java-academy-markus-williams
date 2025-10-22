@@ -38,13 +38,13 @@ public class Employee {
     }
 
     public double getRegularHours() {
-        return Math.max(0, hoursWorked - 40);
+        return Math.min(40, hoursWorked );
     }
     public double getOverTimeHours() {
         return Math.max(0, hoursWorked - 40);
     }
 
-    public double getTotal() {
+    public double getTotalPay() {
         double regularPay = getRegularHours() * payRate;
         double overTimePay = getOverTimeHours() * payRate;
         return regularPay + overTimePay;
