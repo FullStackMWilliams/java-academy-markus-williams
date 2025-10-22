@@ -6,7 +6,7 @@ public class Room {
     private boolean isOccupied;
     private boolean isDirty;
 
-    public Room (int numberOfBeds, double price, boolean isOccupied, boolean isDirty) {
+    public Room(int numberOfBeds, double price, boolean isOccupied, boolean isDirty) {
         this.numberOfBeds = numberOfBeds;
         this.price = price;
         this.isOccupied = isOccupied;
@@ -33,11 +33,35 @@ public class Room {
         return !isDirty && !isOccupied;
     }
 
-    public void setOccupied(boolean occupied){
-        this.isDirty = occupied;
+    public void checkIn() {
+        if (isAvailable()) {
+            isOccupied = true;
+            isDirty = true;
+            System.out.println("Room checked in.");
+        } else {
+            System.out.println("Room not available for check-in. It might be occupied or needs cleaning.");
+        }
     }
 
-    public void setDirty(boolean dirty) {
-        this.isDirty = dirty;
+    public void checkOut() {
+         if (isOccupied) {
+             isOccupied = false;
+             isDirty = true;
+             System.out.println("Guested checked out. Room marked dirty.");
+         } else {
+            System.out.println("Cannot check out.Room is already vacant.");
+         }
     }
+
+    public void cleanRoom(){
+        if (isDirty) {
+            isDirty = false;
+            System.out.println("Room cleaned and ready for the next guest!");
+        } else {
+            System.out.println("Room is already clean.");
+        }
+    }
+
+    public void setOccupied(boolean occupied) { this.isOccupied = occupied; }
+    public void setDirty(boolean dirty) { this.isDirty = dirty; }
 }

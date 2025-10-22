@@ -6,6 +6,8 @@ public class Employee {
     private String department;
     private double payRate;
     private double hoursWorked;
+    private double startTime;
+    private boolean isWorking;
 
 
     public Employee(int employeeId, String name, String department, double payRate, double hoursWorked) {
@@ -14,6 +16,7 @@ public class Employee {
         this.department = department;
         this.payRate = payRate;
         this.hoursWorked = hoursWorked;
+        this.isWorking = false;
     }
 
     public int getEmployeeId() {
@@ -23,7 +26,6 @@ public class Employee {
     public String getName() {
         return name;
     }
-
 
     public String getDepartment() {
         return department;
@@ -35,6 +37,20 @@ public class Employee {
 
     public double getHoursWorked() {
         return hoursWorked;
+    }
+
+    public void punchTimeCard(double time){
+        if (!isWorking) {
+            startTime = time;
+            isWorking = true;
+            System.out.println(name + " punched in at " + time);
+        } else {
+            double hours =  time - startTime;
+            if (hours < 0) hours = 0;
+            hoursWorked += hours;
+            isWorking = false;
+            System.out.println(name + " punched out at " + time + " (+" + hours + " hrs");
+        }
     }
 
     public double getRegularHours() {
@@ -49,4 +65,6 @@ public class Employee {
         double overTimePay = getOverTimeHours() * payRate;
         return regularPay + overTimePay;
     }
+
+
 }
