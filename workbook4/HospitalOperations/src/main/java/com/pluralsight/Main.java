@@ -36,5 +36,29 @@ public class Main {
 
         System.out.println("Total Hours worked: " + emp1.getHoursWorked());
         System.out.println("Total pay: $" + emp1.getTotalPay());
+
+
+        System.out.println("\n======= Employee test Exercise 3 =========");
+        Employee emp = new Employee(105, "John Smith","Housekeeping",18.50,0);
+
+        emp.punchTimeCard();
+        try {Thread.sleep(1000);} catch (InterruptedException e) {}
+        emp.punchTimeCard();
+
+        emp.punchTimeCard(9.0);
+        emp.punchTimeCard(17.5);
+
+        System.out.println("Total Hours Worked: " + emp.getHoursWorked());
+        System.out.println("Total Pay: $" + emp.getTotalPay());
+
+        System.out.println("\n===== Hotel test ======");
+        Hotel hotel = new Hotel("4 Seasons Resort", 5, 10);
+        hotel.bookRoom(2,true);
+        hotel.bookRoom(3,false);
+        hotel.bookRoom(12,false);
+
+        System.out.println("Available Suites: " + hotel.getAvailableSuites());
+        System.out.println("Available Basic Rooms: " + hotel.getAvailableRooms());
+
     }
 }

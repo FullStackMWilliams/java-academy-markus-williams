@@ -59,13 +59,13 @@ public class Employee {
         if (!isWorking) {
             startTime = currentTime;
             isWorking = true;
-            System.out.printf("Automatically punched in at %.2f%n", name, currentTime);
+            System.out.printf("%s Automatically punched in at %.2f%n", name, currentTime);
         } else {
             double hours = currentTime - startTime;
             if (hours < 0) hours = 0;
             hoursWorked += hours;
             isWorking = false;
-            System.out.printf("Automatically punched out at %.2f (+%.2f hrs)%n", name, currentTime,hours);
+            System.out.printf("%s Automatically punched out at %.2f (+%.2f hrs)%n", name, currentTime,hours);
         }
     }
 
