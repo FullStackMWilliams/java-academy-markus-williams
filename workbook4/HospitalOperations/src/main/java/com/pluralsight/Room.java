@@ -53,14 +53,20 @@ public class Room {
          }
     }
 
-    public void cleanRoom(){
+    public void cleanRoom() {
+        if (isOccupied) {
+            System.out.println("⚠️ Cannot clean occupied room! Wait until guest checks out.");
+            return;
+        }
+
         if (isDirty) {
             isDirty = false;
-            System.out.println("Room cleaned and ready for the next guest!");
+            System.out.println("🧹 Room cleaned and ready for the next guest!");
         } else {
             System.out.println("Room is already clean.");
         }
     }
+
 
     public void setOccupied(boolean occupied) { this.isOccupied = occupied; }
     public void setDirty(boolean dirty) { this.isDirty = dirty; }
