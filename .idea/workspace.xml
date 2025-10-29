@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb52503c-0b50-4549-9f12-bc12721a14f8" name="Changes" comment="SandwichShop is now open for business :)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FullStackMWilliams&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FullStackMWilliams/java-academy-markus-williams.git&quot;,
+    &quot;accountId&quot;: &quot;8aea4698-f1e3-4685-804a-508791c93b6e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="337OqyyfmR7mOM8WtTJEETPl2nw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reciept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SandwichShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.movieNight.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java-academy-markus-williams&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/java-academy-markus-williams/WalkThroughs/src/main/java/com/pluralsight/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java-academy-markus-williams\codeDemo's" />
+      <recent name="C:\java-academy-markus-williams\workbook1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SandwichShop">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.Calculator" />
+      <module name="BasicCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.Main" />
+      <module name="Cat-Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
+      <module name="MathApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.SandwichShop" />
+      <module name="SandwichShop-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="movieNight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.movieNight" />
+      <module name="RecapFun-Day4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SandwichShop" />
+        <item itemvalue="Application.movieNight" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.MathApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb52503c-0b50-4549-9f12-bc12721a14f8" name="Changes" comment="" />
+      <created>1758664839076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758664839076</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added cat project to Demos">
+      <option name="closed" value="true" />
+      <created>1758748197793</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758748197793</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added cat project to Demos">
+      <option name="closed" value="true" />
+      <created>1758748322333</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758748322333</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Debugging practice 1">
+      <option name="closed" value="true" />
+      <created>1758749085453</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758749085453</updated>
+    </task>
+    <task id="LOCAL-00018" summary="moved cat project into code demos">
+      <option name="closed" value="true" />
+      <created>1758750089305</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758750089305</updated>
+    </task>
+    <task id="LOCAL-00019" summary="moved cat project into code demos">
+      <option name="closed" value="true" />
+      <created>1758767283337</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758767283337</updated>
+    </task>
+    <task id="LOCAL-00020" summary="StringApplications project">
+      <option name="closed" value="true" />
+      <created>1758772455320</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758772455320</updated>
+    </task>
+    <task id="LOCAL-00021" summary="StringApplications project">
+      <option name="closed" value="true" />
+      <created>1758772494893</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1758772494893</updated>
+    </task>
+    <task id="LOCAL-00022" summary="StringApplications project. Step 2 complete">
+      <option name="closed" value="true" />
+      <created>1758773788037</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758773788037</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Reciept, Step 3 completed">
+      <option name="closed" value="true" />
+      <created>1758774788092</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758774788092</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Reciept, Step 3 completed">
+      <option name="closed" value="true" />
+      <created>1758774828330</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1758774828330</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Math application added, question 1 completed.">
+      <option name="closed" value="true" />
+      <created>1758776282332</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1758776282332</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Math application added, struggling on questions 5-8. T-T">
+      <option name="closed" value="true" />
+      <created>1758779566495</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1758779566495</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added recap fun day exercises to codeDemo's folder.">
+      <option name="closed" value="true" />
+      <created>1758815084888</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758815084888</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added recap fun day exercises to codeDemo's folder.">
+      <option name="closed" value="true" />
+      <created>1758817348603</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1758817348603</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added recap fun day exercises to codeDemo's folder.">
+      <option name="closed" value="true" />
+      <created>1758817579175</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1758817579175</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added bonus challenge to movieNight in codeDemo's">
+      <option name="closed" value="true" />
+      <created>1758819132028</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758819132028</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added bonus challenge to movieNight in codeDemo's">
+      <option name="closed" value="true" />
+      <created>1758821391162</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1758821391162</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Done with Exercise #3 :')">
+      <option name="closed" value="true" />
+      <created>1758824140268</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758824140268</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Done with Exercise #3 :')">
+      <option name="closed" value="true" />
+      <created>1758824570561</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758824570561</updated>
+    </task>
+    <task id="LOCAL-00034" summary="In progress of making my Calculator app">
+      <option name="closed" value="true" />
+      <created>1758827744190</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758827744190</updated>
+    </task>
+    <task id="LOCAL-00035" summary="In progress of making my Calculator app">
+      <option name="closed" value="true" />
+      <created>1758829419766</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758829419766</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Completed Mod3 - Exercise 3 - Basic Calculator">
+      <option name="closed" value="true" />
+      <created>1758830647677</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758830647677</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Completed Mod3 - Exercise 3 - Basic Calculator">
+      <option name="closed" value="true" />
+      <created>1758830859821</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758830859821</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Completed Mod3 - Exercise 3 - Basic Calculator..... Added comments to show comprehension of newly learned skills">
+      <option name="closed" value="true" />
+      <created>1758831746975</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758831746975</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Completed Mod3 - Exercise 3 - Basic Calculator..... Added comments to show comprehension of newly learned skills">
+      <option name="closed" value="true" />
+      <created>1758831795465</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758831795465</updated>
+    </task>
+    <task id="LOCAL-00040" summary="changed calculator app to code-Demo files and renamed it CalculatorApp-Demo">
+      <option name="closed" value="true" />
+      <created>1758832097602</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1758832097602</updated>
+    </task>
+    <task id="LOCAL-00041" summary="changed calculator app to code-Demo files and renamed it CalculatorApp-Demo">
+      <option name="closed" value="true" />
+      <created>1758833312790</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758833312790</updated>
+    </task>
+    <task id="LOCAL-00042" summary="changed calculator app to code-Demo files and renamed it CalculatorApp-Demo">
+      <option name="closed" value="true" />
+      <created>1758833325150</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1758833325150</updated>
+    </task>
+    <task id="LOCAL-00043" summary="reorganized files">
+      <option name="closed" value="true" />
+      <created>1758833826178</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1758833826178</updated>
+    </task>
+    <task id="LOCAL-00044" summary="reorganized files">
+      <option name="closed" value="true" />
+      <created>1758834068609</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1758834068609</updated>
+    </task>
+    <task id="LOCAL-00045" summary="mini fun day exercises completed">
+      <option name="closed" value="true" />
+      <created>1758834850879</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1758834850879</updated>
+    </task>
+    <task id="LOCAL-00046" summary="mini fun day exercises completed">
+      <option name="closed" value="true" />
+      <created>1758835079564</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758835079564</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Starting bonus challenge">
+      <option name="closed" value="true" />
+      <created>1758836683779</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1758836683779</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Starting bonus challenge">
+      <option name="closed" value="true" />
+      <created>1758841320323</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1758841320323</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Starting bonus challenge">
+      <option name="closed" value="true" />
+      <created>1758842050380</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1758842050380</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Bonus challenge 2 completed">
+      <option name="closed" value="true" />
+      <created>1758843052213</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1758843052215</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Bonus challenge 4 completed">
+      <option name="closed" value="true" />
+      <created>1758844277003</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1758844277003</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Bonus challenge 4 completed">
+      <option name="closed" value="true" />
+      <created>1758844722857</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1758844722857</updated>
+    </task>
+    <task id="LOCAL-00053" summary="revised movieNight">
+      <option name="closed" value="true" />
+      <created>1758905943483</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1758905943484</updated>
+    </task>
+    <task id="LOCAL-00054" summary="We figured out how to restore pom.xml files and put a tutorial in our debugging folder :'D">
+      <option name="closed" value="true" />
+      <created>1758911735648</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1758911735648</updated>
+    </task>
+    <task id="LOCAL-00055" summary="revised">
+      <option name="closed" value="true" />
+      <created>1758911851951</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1758911851951</updated>
+    </task>
+    <task id="LOCAL-00056" summary="revised and added file on how to debug IntelliJ">
+      <option name="closed" value="true" />
+      <created>1758913088511</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1758913088511</updated>
+    </task>
+    <task id="LOCAL-00057" summary="revised and added file on how to debug IntelliJ">
+      <option name="closed" value="true" />
+      <created>1758913118941</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1758913118941</updated>
+    </task>
+    <task id="LOCAL-00058" summary="revised and added file on how to debug IntelliJ">
+      <option name="closed" value="true" />
+      <created>1758930568247</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1758930568247</updated>
+    </task>
+    <task id="LOCAL-00059" summary="revised and added file on how to debug IntelliJ">
+      <option name="closed" value="true" />
+      <created>1758930577316</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1758930577316</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Half way done with SandwichShop">
+      <option name="closed" value="true" />
+      <created>1758933518762</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1758933518762</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Half way done with SandwichShop">
+      <option name="closed" value="true" />
+      <created>1758933702445</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1758933702445</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Half way done with SandwichShop">
+      <option name="closed" value="true" />
+      <created>1758936316440</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1758936316440</updated>
+    </task>
+    <task id="LOCAL-00063" summary="SandwichShop is now open for business :)">
+      <option name="closed" value="true" />
+      <created>1758992890616</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1758992890616</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Debugging practice 1" />
+    <MESSAGE value="moved cat project into code demos" />
+    <MESSAGE value="StringApplications project" />
+    <MESSAGE value="StringApplications project. Step 2 complete" />
+    <MESSAGE value="Reciept, Step 3 completed" />
+    <MESSAGE value="Math application added, question 1 completed." />
+    <MESSAGE value="Math application added, struggling on questions 5-8. T-T" />
+    <MESSAGE value="Added recap fun day exercises to codeDemo's folder." />
+    <MESSAGE value="Added bonus challenge to movieNight in codeDemo's" />
+    <MESSAGE value="Done with Exercise #3 :')" />
+    <MESSAGE value="In progress of making my Calculator app" />
+    <MESSAGE value="Completed Mod3 - Exercise 3 - Basic Calculator" />
+    <MESSAGE value="Completed Mod3 - Exercise 3 - Basic Calculator..... Added comments to show comprehension of newly learned skills" />
+    <MESSAGE value="changed calculator app to code-Demo files and renamed it CalculatorApp-Demo" />
+    <MESSAGE value="reorganized files" />
+    <MESSAGE value="mini fun day exercises completed" />
+    <MESSAGE value="Starting bonus challenge" />
+    <MESSAGE value="Bonus challenge 2 completed" />
+    <MESSAGE value="Bonus challenge 4 completed" />
+    <MESSAGE value="revised movieNight" />
+    <MESSAGE value="We figured out how to restore pom.xml files and put a tutorial in our debugging folder :'D" />
+    <MESSAGE value="revised" />
+    <MESSAGE value="revised and added file on how to debug IntelliJ" />
+    <MESSAGE value="Half way done with SandwichShop" />
+    <MESSAGE value="SandwichShop is now open for business :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SandwichShop is now open for business :)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code-example-1/src/main/java/com/pluralsight/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codeDemo's/Cat-Demo/src/main/java/com/pluralsight/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workbook1/SandwichShop-Application/src/main/java/com/pluralsight/SandwichShop.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codeDemo's/WalkThrough's/src/main/java/com/pluralsight/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codeDemo's/WalkThroughs/src/main/java/com/pluralsight/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
