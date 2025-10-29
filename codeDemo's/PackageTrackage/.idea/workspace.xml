@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5df6b3-7c38-400b-bdbb-15c4b43515dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PackageTrackage/PackageTrackage/src/main/java/com/pluralsight/PackageCarriers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PackageTrackage/PackageTrackage/src/main/java/com/pluralsight/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PackageTrackage/PackageTrackage/src/main/java/com/pluralsight/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PackageTrackage/PackageTrackage/src/main/java/com/pluralsight/VerfiPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook4/CarDealership/src/main/java/com/pluralsight/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5f5df6b3-7c38-400b-bdbb-15c4b43515dd" name="Changes" comment="༼ ͡ ◕ ͜ ʖ ◕͡ ༽ App idea, with class breakdown/ project structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,47 +20,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FullStackMWilliams"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FullStackMWilliams&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FullStackMWilliams/java-academy-markus-williams.git",
-    "accountId": "8aea4698-f1e3-4685-804a-508791c93b6e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FullStackMWilliams/java-academy-markus-williams.git&quot;,
+    &quot;accountId&quot;: &quot;8aea4698-f1e3-4685-804a-508791c93b6e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34kUuDJW2cCzk6Sm8laNNI4pww6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/java-academy-markus-williams/codeDemo's/PackageTrackage/src/main/java/com/pluralsight/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/java-academy-markus-williams/codeDemo's/PackageTrackage/src/main/java/com/pluralsight/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java-academy-markus-williams\PackageTrackage" />
+    </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +63,28 @@
       <option name="presentableId" value="Default" />
       <updated>1761757284031</updated>
     </task>
+    <task id="LOCAL-00001" summary="༼ ͡ ◕ ͜ ʖ ◕͡ ༽ App idea, with class breakdown/ project structure">
+      <option name="closed" value="true" />
+      <created>1761758324714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761758324714</updated>
+    </task>
+    <task id="LOCAL-00002" summary="༼ ͡ ◕ ͜ ʖ ◕͡ ༽ App idea, with class breakdown/ project structure">
+      <option name="closed" value="true" />
+      <created>1761758425823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761758425823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="༼ ͡ ◕ ͜ ʖ ◕͡ ༽ App idea, with class breakdown/ project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="༼ ͡ ◕ ͜ ʖ ◕͡ ༽ App idea, with class breakdown/ project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
