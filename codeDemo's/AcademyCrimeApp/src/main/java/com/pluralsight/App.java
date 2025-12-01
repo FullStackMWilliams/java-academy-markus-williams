@@ -37,9 +37,7 @@ public class App {
                 String fullName = resultSet.getString("FullName");
                 boolean isSuspect = resultSet.getBoolean("IsSuspect");
 
-                System.out.printf("Name: %-20s | Suspect: %s%n",
-                        fullName,
-                        isSuspect ? "YES" : "NO");
+                System.out.printf("Name: %-20s\n", fullName);
             }
 
         } catch (SQLException e) {
