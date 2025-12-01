@@ -40,7 +40,7 @@ public class App {
                 int PersonID = resultSet.getInt("PersonID");
                 String CurrentPerformance = resultSet.getString("CurrentPerformance");
 
-                System.out.printf("Name: %-20s\n | PersonsID: %-20s | CurrentPerformance: %-20s", fullName, PersonID, CurrentPerformance);
+                System.out.printf("Name: %-20s | PersonsID: %-20s | CurrentPerformance: %-20s\n", fullName, PersonID, CurrentPerformance);
             }
 
         } catch (SQLException e) {
