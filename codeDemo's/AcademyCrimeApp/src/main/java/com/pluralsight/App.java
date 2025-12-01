@@ -23,7 +23,8 @@ public class App {
                 DB_NAME
         );
 
-        String sql = "SELECT FullName, IsSuspect FROM AcademyCrime.People;";
+        //String sql = "SELECT FullName, IsSuspect FROM AcademyCrime.People;";
+        String sql = "SELECT PersonID, CurrentGrade FROM AcademyCrime.Grades;";
 
         try (Connection conn = DriverManager.getConnection(connectionUrl, DB_USER, DB_PASS);
              PreparedStatement stmt = conn.prepareStatement(sql);
@@ -35,9 +36,11 @@ public class App {
             while (resultSet.next()) {
 
                 String fullName = resultSet.getString("FullName");
-                boolean isSuspect = resultSet.getBoolean("IsSuspect");
+                //boolean isSuspect = resultSet.getBoolean("IsSuspect");
+                int PersonID = resultSet.getInt("PersonID");
+                String CurrentPerformance = resultSet.getString("CurrentPerformance");
 
-                System.out.printf("Name: %-20s\n", fullName);
+                System.out.printf("Name: %-20s\n | PersonsID: %-20s | CurrentPerformance: %-20s", fullName, PersonID, CurrentPerformance);
             }
 
         } catch (SQLException e) {
